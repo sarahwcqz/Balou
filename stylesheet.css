@@ -1,0 +1,478 @@
+
+/* pour TOUTES les pages*/
+
+
+
+body{
+    background-image: url(constellations-2609647_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+
+
+/* ---------------------------  pour la page start --------------------------------------- */
+
+
+
+.bienvenue{
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    color: aliceblue;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 350px;
+    text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000;
+}
+
+
+.lezgo{
+    text-align: center;
+    color: black;
+    font-family: "Akaya Kanadaka", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    background: radial-gradient(circle, rgba(249,247,247,1) 0%, rgba(72,47,111,1) 78%, rgba(1,0,2,1) 100%);
+    display: flex; 
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 75%;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+
+
+
+/* ------------------------------------- pour la page test ------------------------ */
+
+
+
+.pTest{
+    padding: 100px 70px 70px 70px;
+    text-align: center;
+    font-size: xx-large;
+    text-shadow: 2px 2px 0 black;
+    font-family: "Quantico", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+.questTest{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    height: 350px;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.questTest img{
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 25px;
+}
+
+
+
+/* ------------------------------------  pour le page WRONG ------------------------- */
+
+
+
+.loser{
+    background-image: url(skulls.png);
+    background-size: 10cm 10cm;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: red;
+    font-size: 1.3cm;
+    text-align: center;
+    font-family: "Nosifer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 4px 4px 0 black;
+    padding: 100px;
+}
+
+
+
+/* --------------------------- Pour la page welcome --------------------------------------  */
+
+
+
+/*header*/
+
+.WHeader{
+    background-color: rgba(87, 37, 194, 0.9);
+    color: black;
+    border-radius: 7px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+.logo{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.name{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-family: "Rubik Beastly", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+.money{
+    grid-column-start: 6;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: double;
+    border-radius: 7px;
+    border-width: 5px;
+    text-align: center;
+    font-size: large;
+}
+
+
+/*main*/
+
+.Wpage{
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr
+}
+
+
+.Wmain{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    text-align: center;
+}
+
+
+.Wh1{
+    background-color: rgba(244, 240, 255, 0.9);
+    color: black;
+    border: dotted;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 50px;
+}
+
+
+.Wmain img{
+    max-width: 100%;
+    height: auto;
+    border: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 20px;
+}
+
+
+.blahblah{
+    background-color:rgba(245, 242, 255, 0.5);
+    color: black;
+    font-size: x-large;
+    text-align: justify;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.mango{
+    background-color: #d2c7ff;
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 50px;
+    margin: 30px;
+    padding: 30px;
+    font-size: xx-large;
+    color: black;
+    position: sticky;
+    bottom: 120px;
+}
+
+
+.stickyrice{
+    background-color: #d2c7ff;
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 50px;
+    margin: 30px;
+    padding: 30px;
+    font-size: xx-large;
+    color: black;
+    position: sticky;
+    bottom: 10px;
+}
+
+
+/* aside*/
+
+
+.Waside{
+    grid-column-start: 8;
+    grid-column-end: 8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    margin: 25px;
+}
+
+.WA0{
+    background-image: url(Photos/skatedelespace2.png);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: double;
+    text-decoration: underline;
+    font-size: x-large;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: solid;
+    border-width: 2px;
+    border-color: #d2c7ff;
+    border-radius: 10px;
+}
+
+.WA1{
+    background-image: url(Photos/Jesusbalou3.png);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: double;
+    text-decoration: underline;
+    font-size: x-large;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: solid;
+    border-width: 2px;
+    border-color: #d2c7ff;
+    border-radius: 10px;
+}
+
+.WA2{
+    background-image: url(Photos/MrWorldwide.png);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: double;
+    text-decoration: underline;
+    font-size: x-large;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: solid;
+    border-width: 2px;
+    border-color: #d2c7ff;
+    border-radius: 10px;
+}
+
+.WA2b{
+    background-image: url(Photos/hpichat.png);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: double;
+    text-decoration: underline;
+    font-size: x-large;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: solid;
+    border-width: 2px;
+    border-color: #d2c7ff;
+    border-radius: 10px;
+}
+
+.WA3{
+    background-image: url(Photos/happycat.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: double;
+    text-decoration: underline;
+    font-size: x-large;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: solid;
+    border-width: 2px;
+    border-color: #d2c7ff;
+    border-radius: 10px;
+}
+
+.WA4{
+    background-image: url(Photos/hapinessismoneyifyouaskmycat.png);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: double;
+    text-decoration: underline;
+    font-size: x-large;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: solid;
+    border-width: 2px;
+    border-color: #d2c7ff;
+    border-radius: 10px;
+}
+
+.WA5{
+    background-image: url(Photos/catnaps.png);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: double;
+    text-decoration: underline;
+    font-size: x-large;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: solid;
+    border-width: 2px;
+    border-color: #d2c7ff;
+    border-radius: 10px;
+}
+
+.WA6{
+    background-image: url(Photos/egyptcats.png);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: double;
+    text-decoration: underline;
+    font-size: x-large;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: solid;
+    border-width: 2px;
+    border-color: #d2c7ff;
+    border-radius: 10px;
+}
+
+.WA7{
+    background-image: url(Photos/bible-7092020_640.jpg);
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    background-position: center;    
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: double;
+    text-decoration: underline;
+    font-size: x-large;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: solid;
+    border-width: 2px;
+    border-color: #d2c7ff;
+    border-radius: 10px;
+}
+
+
+
+/* --------------------------- Dons ----------------------- */
+
+
+.BalouMoney{
+    background-image: url(Photos/BalouMoney.png);
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    position: fixed;
+    bottom: 15px;
+    left: 30%;
+}
+
+.donations{
+    background-color: rgba(213, 230, 211, 0.7);
+    text-align: center;
+    color: #525252;
+    border: solid;
+    border-color: #ababab;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 0px 70px 0px 70px;
+}
+
+.donations h3{
+    font-size: x-large;
+}
+
+
+.donations h2{
+    font-size: xx-large;
+    padding: 20px;
+    border: solid;
+    border-color: #000;
+    border-radius: 20px;
+    background-color: rgba(63, 143, 46, 1);
+}
+
+
+.montant{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.montant > div{
+    background-color: rgba(213, 230, 211, 1);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: large;
+
+}
